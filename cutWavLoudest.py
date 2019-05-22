@@ -1,6 +1,6 @@
+import os,sys,numpy
 
 def cutWavLoudest(srcDirAbsPath:str, dstDirAbsPath:str, desired_ms:int):
-    import os,sys,numpy
     if sys.platform == "win32":
         srcDirAbsPath = srcDirAbsPath + "\\" if srcDirAbsPath[-1] != "\\" else srcDirAbsPath
         dstDirAbsPath = dstDirAbsPath + "\\" if dstDirAbsPath[-1] != "\\" else dstDirAbsPath
